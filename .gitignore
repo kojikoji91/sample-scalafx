@@ -1,0 +1,8 @@
+*.class
+*.cache
+.idea
+*.iml
+*.iws
+*.ipr
+*.log
+*.swp

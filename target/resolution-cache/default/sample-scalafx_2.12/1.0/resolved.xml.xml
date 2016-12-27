@@ -4,7 +4,7 @@
 		module="sample-scalafx_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20161227214101"
+		publication="20161227220145"
 	>
 		<description>
 		sample-scalafx
@@ -34,5 +34,6 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.1" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.1" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scalafx" name="scalafx_2.12" rev="8.0.20-R6" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
